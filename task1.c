@@ -9,7 +9,7 @@ int main(){
 	
 	for(i=0;i<10;i++){
 		square=s[i] * s[i];
-		printf("the sqaure of %d : %d \n",s[i],square);
+		printf("the sqaure of %d : %d \n",s[i],*q);
 	}
 	
 	return 0;

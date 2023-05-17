@@ -14,7 +14,7 @@
   	*q=*p;
   	*p=swp;
   	
-  	printf("After swap value : \n%d \n %d",*p,*q);
+  	printf("After swap value : \n %u => %d \n %u => %d",q,*p,p,*q);
   	
   	return  0;
   }
